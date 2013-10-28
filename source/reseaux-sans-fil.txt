@@ -1,0 +1,198 @@
+=====================================
+Concepts de base des réseaux sans fil
+=====================================
+
+Qu'est-ce qu'un réseau sans fil ?
+=================================
+
+Un réseau sans fil (en anglais wireless network) est, comme son nom
+l'indique, un réseau dans lequel au moins deux terminaux (ordinateur
+portable, PDA, etc.) peuvent communiquer sans liaison filaire.
+
+Grâce aux réseaux sans fil, un utilisateur a la possibilité de rester
+connecté tout en se déplaçant dans un périmètre géographique plus ou
+moins étendu, c'est la raison pour laquelle on entend parfois parler
+de "mobilité".
+
+.. note:: *Remarque concernant l'orthographe des réseaux sans fil*
+
+    Malgré l'utilisation de "sans fil", communément admise, les
+    orthographes exactes sont « sans fil » et « sans-fil » On parle
+    ainsi de « réseau sans fil » ou bien « du sans-fil ».  Les réseaux
+    sans fil sont basés sur une liaison utilisant des ondes
+    radio-électriques (radio et infrarouges) en lieu et place des
+    câbles habituels. Il existe plusieurs technologies se distinguant
+    d'une part par la fréquence d'émission utilisée ainsi que le débit
+    et la portée des transmissions.
+
+Les réseaux sans fil permettent de relier très facilement des
+équipements distants d'une dizaine de mètres à quelques kilomètres. De
+plus l'installation de tels réseaux ne demande pas de lourds
+aménagements des infrastructures existantes comme c'est le cas avec
+les réseaux filaires (creusement de tranchées pour acheminer les
+câbles, équipements des bâtiments en câblage, goulottes et
+connecteurs), ce qui a valu un développement rapide de ce type de
+technologies.
+
+En contrepartie se pose le problème de la réglementation relative aux
+transmissions radio-électriques. En effet, les transmissions
+radio-électriques servent pour un grand nombre d'applications
+(militaires, scientifiques, amateurs, ...), mais sont sensibles aux
+interférences, c'est la raison pour laquelle une réglementation est
+nécessaire dans chaque pays afin de définir les plages de fréquence et
+les puissances auxquelles il est possible d'émettre pour chaque
+catégorie d'utilisation.
+
+De plus les ondes hertziennes sont difficiles à confiner dans une
+surface géographique restreinte, il est donc facile pour un pirate
+d'écouter le réseau si les informations circulent en clair (c'est le
+cas par défaut). Il est donc nécessaire de mettre en place les
+dispositions nécessaires de telle manière à assurer une
+confidentialité des données circulant sur les réseaux sans fil.
+
+
+Les catégories de réseaux
+=========================
+
+On distingue plusieurs catégories de réseaux sans fil, selon le
+périmètre géographique offrant une connectivité. (appelée zone de
+couverture).
+
+Deux organismes principaux gèrent la normalisation des réseaux et les
+bandes de fréquences attribuées aux réseaux sans fil. 
+
+L'organisme Américain — **IEEE**
+********************************
+
+Le centre **IEEE** (*Institute of Electrical and Electronics
+Engineers*), associé à la **FCC** ; l'organisme européen est
+L'**ETSI** (*European Telecommunications Standards Institute*). Une
+fois les normes établies, des commissions distribuent ces fréquences
+aux utilisateurs selon la taille du réseau créé.
+
+Il distingue les catégories suivantes :
+
+ * **PAN** : Personal Area Network
+ * **LAN** : Local Area Network
+ * **MAN** : Metropolitan Area Network
+ * **WAN** : Wide Area Network
+ * **RAN** : Rural Area Network
+
+L'organisme Européen — **CEPT**
+*******************************
+
+Du côté européen, pour les mêmes types de réseaux, la **CEPT**
+(*Conférence Européenne des Postes et Télécommunications*) organise
+les fréquences de cette manière :
+
+ * **PAN** : Personal Area Network
+ * **LAN** : Local Area Network
+ * **MAN** : Metropolitan Area Network
+ * **WAN** : Wide Area Network
+
+En France c'est l'ARCEP qui gère la distribution et la vente
+éventuelle des fréquences radio.
+
+.. image:: _static/reseaux-sans-fil/wireless-images-wpan-wlan-wman-wwan.png
+
+
+Réseaux personnels sans fil (WPAN)
+----------------------------------
+
+Le *réseau personnel sans fil* (appelé également *réseau individuel
+sans fil* ou *réseau domestique sans fil* et noté **WPAN** pour *Wireless
+Personal Area Network*) concerne les réseaux sans fil d'une faible
+portée : de l'ordre de quelques dizaines mètres. Ce type de réseau
+sert généralement à relier des périphériques (imprimante, téléphone
+portable, appareils domestiques, ...) ou un assistant personnel (PDA)
+à un ordinateur sans liaison filaire ou bien à permettre la liaison
+sans fil entre deux machines très peu distantes. Il existe plusieurs
+technologies utilisées pour les WPAN :
+
+Bluetooth
+*********
+
+La principale technologie WPAN est la technologie **Bluetooth**, lancée
+par Ericsson en 1994, proposant un débit théorique de 1 Mbps pour une
+portée maximale d'une trentaine de mètres. Bluetooth, connue aussi
+sous le nom *IEEE 802.15.1*, possède l'avantage d'être très peu
+gourmande en énergie, ce qui la rend particulièrement adaptée à une
+utilisation au sein de petits périphériques.
+
+.. image:: _static/reseaux-sans-fil/wireless-images-bluetooth.gif
+
+
+HomeRF
+******
+
+**HomeRF** (pour *Home Radio Frequency*), lancée en 1998 par le HomeRF
+Working Group (formé notamment par les constructeurs Compaq, HP,
+Intel, Siemens, Motorola et Microsoft) propose un débit théorique de
+10 Mbps avec une portée d'environ 50 à 100 mètres sans
+amplificateur. La norme HomeRF soutenue notamment par Intel, a été
+abandonnée en Janvier 2003, notamment car les fondeurs de processeurs
+misent désormais sur les technologies Wi-Fi embarquée (via la
+technologie *Centrino*, embarquant au sein d'un même composant un
+microprocesseur et un adaptateur Wi-Fi).
+
+.. image:: _static/reseaux-sans-fil/wireless-images-homerf.gif
+
+
+ZigBee
+******
+
+La technologie **ZigBee** (aussi connue sous le nom *IEEE 802.15.4*)
+permet d'obtenir des liaisons sans fil à très bas prix et avec une
+très faible consommation d'énergie, ce qui la rend particulièrement
+adaptée pour être directement intégrée dans de petits appareils
+électroniques (appareils électroménagers, hifi, jouets, ...). La
+technologie ZigBee, opérant sur la bande de fréquences des 2,4 GHz et
+sur 16 canaux, permet d'obtenir des débits pouvant atteindre 250 Kb/s
+avec une portée maximale de 100 mètres environ.
+
+.. image:: _static/reseaux-sans-fil/ZigBee.jpg
+
+
+irDA
+****
+
+Enfin les liaisons infrarouges permettent de créer des liaisons sans
+fil de quelques mètres avec des débits pouvant monter à quelques
+mégabits par seconde. Cette technologie est largement utilisée pour la
+domotique (télécommandes) mais souffre toutefois des perturbations
+dues aux interférences lumineuses. L'association irDA (infrared data
+association) formée en 1995 regroupe plus de 150 membres.
+
+.. image:: _static/reseaux-sans-fil/irda.png
+
+
+Réseaux locaux sans fil (WLAN)
+------------------------------
+
+Le *réseau local sans fil* (noté **WLAN** pour *Wireless Local Area
+Network*) est un réseau permettant de couvrir l'équivalent d'un réseau
+local d'entreprise, soit une portée d'environ une centaine de
+mètres. Il permet de relier entre-eux les terminaux présents dans la
+zone de couverture. Il existe plusieurs technologies concurrentes :
+
+
+Wifi
+****
+
+Le Wifi (ou IEEE 802.11) soutenu par l'alliance WECA (Wireless
+Ethernet Compatibility Alliance) offre des débits allant jusqu'à
+54Mbps sur une distance de plusieurs centaines de mètres.
+
+.. image:: _static/reseaux-sans-fil/wireless-images-wifi.gif
+
+
+HiperLAN2
+*********
+
+**HiperLAN2** (*High Performance Radio LAN 2.0*), norme européenne
+élaborée par l'ETSI (*European Telecommunications Standards
+Institute*). HiperLAN 2 permet d'obtenir un débit théorique de 54 Mbps
+sur une zone d'une centaine de mètres dans la gamme de fréquence
+comprise entre 5150 MHz et 5300 MHz.
+
+.. image:: _static/reseaux-sans-fil/wireless-images-hiperlan2.gif

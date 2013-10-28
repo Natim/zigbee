@@ -1,0 +1,44 @@
+.. ZigBee documentation master file, created by
+   sphinx-quickstart on Sun Oct 27 18:52:08 2013.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+=========================================================
+Tout ce que vous avez toujours souhaité savoir sur ZigBee 
+=========================================================
+
+.. note::
+   
+   Ce cours est collaboratif, n'hésitez pas à participer à sa
+   rédaction, corriger une faute, ajouter une précision ou une partie
+   oubliée. https://github.com/Natim/zigbee
+
+
+ZigBee est un protocole de communication haut niveau permettant la
+communication sans fil entre deux radios à consommation réduite. 
+
+Le protocole est basé sur la norme IEEE 802.15.4 pour les réseaux à
+dimension personnelle. (WPAN)
+
+La ZigBee Alliance a ratifié les spécifications de ZigBee 1.0 le 14
+décembre 2004.
+
+Dans la suite de ce cours, je vous propose d'entrer dans les détails
+pour comprendre la nécessité de cette norme, ses enjeux et outils à
+l'heure de l'Internet des Objets.
+
+Nous entrerons également dans le vif du sujet en réalisant des
+prototypes d'objets connectés communiquants à l'aide du protocole
+ZigBee.
+
+
+Sommaire
+========
+
+.. toctree::
+   :maxdepth: 3
+
+   reseaux-sans-fil
+
+
+.. include:: bibliographie.txt
