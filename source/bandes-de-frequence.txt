@@ -1,0 +1,51 @@
+====================
+Bandes de fréquences
+====================
+
+Les **bandes ISM** (*industriel, scientifique, et médical*) sont des
+bandes de fréquences qui peuvent être utilisées, pour des applications
+industrielles, scientifiques, médicales, domestiques ou similaire, à
+l'exception des applications de radiocommunication, sans demande
+d'autorisation auprès des autorités. 
+
+Pour l'Union européenne, les bandes de fréquences, et éventuels
+niveaux limites, sont définis dans la norme **EN 55011**.
+
+Pour les USA, la publication **FCC Part 18** définit ces bandes de
+fréquences et niveaux limites d'émission. 
+
+
+Bande industrielle, scientifique et médicale
+============================================
+
+Le besoin
+---------
+
+ * Transmission numérique de données
+ * Distance de 1 à 3 kms max
+ * Faible débit
+ * Souvent une alimentation à piles
+ * Durée de vie des piles jusqu'à 10 ans
+ * Faible coût (Bill of Material de quelques euros)
+ * Le plus souvent des bandes RF libres sans licence
+
+Les usages
+----------
+
+Ils sont multiples :
+
+ * Domotique
+    * Alarme, Éclairage
+    * Chauffage et climatisation
+    * Fermeture : volets et portes
+ * Industrielle
+    * Détecteur (température, lumière) et commandes
+    * Programmation de machines-outils
+    * Télérelevage
+ * Multimédia
+    * Manette de jeux, souris/clavier
+    * Déport audio
+    * Télécommande
+ * Automobile
+    * Tire-pressure monitoring system : Porsche 959, 607, Laguna
+    * Remote Keyless Entry (Clé sans fil Renault)

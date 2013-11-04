@@ -62,7 +62,7 @@ Deux organismes principaux gèrent la normalisation des réseaux et les
 bandes de fréquences attribuées aux réseaux sans fil. 
 
 L'organisme Américain — **IEEE**
-********************************
+--------------------------------
 
 Le centre **IEEE** (*Institute of Electrical and Electronics
 Engineers*), associé à la **FCC** ; l'organisme européen est
@@ -79,7 +79,7 @@ Il distingue les catégories suivantes :
  * **RAN** : Rural Area Network
 
 L'organisme Européen — **CEPT**
-*******************************
+-------------------------------
 
 Du côté européen, pour les mêmes types de réseaux, la **CEPT**
 (*Conférence Européenne des Postes et Télécommunications*) organise
@@ -196,3 +196,45 @@ sur une zone d'une centaine de mètres dans la gamme de fréquence
 comprise entre 5150 MHz et 5300 MHz.
 
 .. image:: _static/reseaux-sans-fil/wireless-images-hiperlan2.gif
+
+
+Réseaux métropolitains sans fil (WMAN)
+--------------------------------------
+
+Le *réseau métropolitain sans fil* (**WMAN** pour `Wireless Metropolitan Area
+Network`) est connu sous le nom de **Boucle Locale Radio** (BLR). Les WMAN
+sont basés sur la norme *IEEE 802.16*. La boucle locale radio offre un
+débit utile de 1 à 10 Mbit/s pour une portée de 4 à 10 kilomètres, ce
+qui destine principalement cette technologie aux opérateurs de
+télécommunication.
+
+La norme de réseau métropolitain sans fil la plus connue est le WiMAX,
+permettant d'obtenir des débits de l'ordre de 70 Mbit/s sur un rayon
+de plusieurs dizaines de kilomètres.
+
+
+WiMAX
+*****
+
+**WiMAX** (*Worldwide Interoperability for Microwave Access*), IEEE
+802.16 c'est un label délivré par le *WiMAX forum* aux équipements
+respectants la norme.
+
+Le WiMAX a été créé par les sociétés Intel et Alvarion en 2002.
+
+
+Réseaux étendus sans fil (WWAN)
+-------------------------------
+
+Le *réseau étendu sans fil* (**WWAN** pour *Wireless Wide Area
+Network*) est également connu sous le nom de *réseau cellulaire
+mobile*. Il s'agit des réseaux sans fil les plus répandus puisque tous
+les téléphones mobiles sont connectés à un réseau étendu sans fil. Les
+principales technologies sont les suivantes :
+
+ * GSM (2G) : 9,05 Kbps
+ * GPRS (2.5G) : 171,2 Kbps
+ * EDGE (2.75G) : 383 Kbps
+ * UMTS (3G) : 1.9 Mbps
+ * HSDPA (3G+) : 14.4Mbps
+ * LTE-Advanced (4G) : 1Gbps / 100Mbps

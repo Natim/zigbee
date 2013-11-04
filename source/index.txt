@@ -36,9 +36,10 @@ Sommaire
 ========
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 5
 
    reseaux-sans-fil
+   bandes-de-frequence
 
 
 .. include:: bibliographie.txt
